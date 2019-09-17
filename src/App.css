@@ -14,9 +14,35 @@
   color: white;
 }
 
-.App-intro {
-  font-size: large;
+.App-links {
+  border-top: #333 2px solid;
+  padding: 8px;
+  background-color: #222;
+  color: white;
 }
+
+.App-link {
+  border-right: #333 2px solid;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.App-link:last-of-type {
+  border-right: none;
+}
+
+.App-link a{
+  text-decoration: none;
+  color: white;
+  border-bottom: 0px solid transparent;
+  -webkit-transition: 0.5s all ease;
+  transition: 0.5s all ease;
+}
+
+.App-link a:hover {
+  border-bottom: 1px solid white;
+}
+
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }

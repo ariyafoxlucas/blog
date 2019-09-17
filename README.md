@@ -13,3 +13,4 @@ The purpose is to build a Blog management backend with a blog frontend.
 - Implement API integration
 - Implement CRUD actions for Blogs
 - Add Login feature
+- Add tests
